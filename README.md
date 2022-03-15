@@ -1,5 +1,6 @@
 <h1 align="center">
-    <img alt="QANinja" src="universocypress.png" width="400px" />
+    <img alt="QANinja" src="universocypress.png" width="300px"
+    height="200px" />
     <br>
 </h1>
 
@@ -52,7 +53,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com). Follo
     [x] For test frontend:
         yarn test:e2e
 
-    [x] For test frontend em headless:
+    [x] For test frontend in headless:
         yarn test:headless
 
 ```
