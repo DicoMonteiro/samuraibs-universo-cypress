@@ -1,6 +1,6 @@
 <h1 align="center">
-    <img alt="QANinja" src="universocypress.png" width="400px"
-    height="100px" />
+    <img alt="QANinja" src="universocypress.png" width="800px"
+    height="300px" />
     <br>
 </h1>
 
