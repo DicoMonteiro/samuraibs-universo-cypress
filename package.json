@@ -6,7 +6,8 @@
   "author": "Adriano Almeida",
   "license": "MIT",
   "scripts": {
-    "test:e2e": "npx cypress open"
+    "test:e2e": "npx cypress open",
+    "test:headless": "npx cypress run"
   },
   "devDependencies": {
     "@faker-js/faker": "^6.0.0-alpha.7",
