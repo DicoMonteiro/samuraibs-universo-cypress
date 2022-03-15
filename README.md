@@ -11,7 +11,7 @@
 <h4 align="center">
   It's an app for waste collection created during <a href="https://pages.qa.ninja/universo-cypress">Universo Cypress</a>
   <br>
-  Created with :purple_heart:  by <a href="https://qa.ninja/">QANinja</a>
+  Created with :purple_heart: :icon-heart:  by <a href="https://qa.ninja/">QANinja</a>
 </h4>
 
 ## :video_camera: Demonstration
