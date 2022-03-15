@@ -19,9 +19,9 @@
 #### Automation Front-end
 
 ## Samurai Barbershop
-<!-- <h2 align="center">
+<h2 align="center">
   <img alt="QANinja - Developer" src="./samuraibs.gif" />
-</h2> -->
+</h2>
 
 ## :rocket: Technologies
 
