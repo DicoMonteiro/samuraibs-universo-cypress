@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="QANinja" src="universocypress.png" width="800px"
+    <img alt="QANinja" src="universocypress.png" width="400px"
     height="300px" />
     <br>
 </h1>
