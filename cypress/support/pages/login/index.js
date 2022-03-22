@@ -1,12 +1,12 @@
 import { element } from './elements'
-import toast from '../../components/toast/index';
-import nav from '../../components/nav/index';
+import toast from '../../components/toast';
+import alert from '../../components/alert'
 
 class LoginPage {
 
     constructor() {
         this.toast = toast
-        this.nav = nav
+        this.alert = alert
     }
 
     go(){
@@ -14,14 +14,15 @@ class LoginPage {
         cy.contains("h1", "Faça seu login").should("be.visible" , {timeout: 3000});
     }
     form(user) {
-        cy.get(element.email).type(user.email);
-        cy.get(element.password).type(user.password);
+        cy.get(element.email)
+            .clear()
+            .type(user.email);
+        cy.get(element.password)
+            .clear()
+            .type(user.password);
     }
     submit(){
         cy.contains(element.accessButton).click();
-    }
-    alertHaveText(message){
-        cy.contains(element.alert, message).should("be.visible");
     }
     
 }

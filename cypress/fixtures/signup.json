@@ -1,0 +1,23 @@
+{
+  "success": {
+    "name": "Apolo Monteiro",
+    "email": "apolo.monteiro@teste.com",
+    "password": "teste@123"
+  },
+  "invalid_email": {
+    "name": "Elizabeth Olse",
+    "email": "elizabeth.olse.com",
+    "password": "teste@123"
+  },
+  "email_exists": {
+    "name": "Apolo Vale",
+    "email": "apolo.vale@teste.com",
+    "password": "teste@123",
+    "is_provider": true
+  },
+  "short_password": {
+    "name": "Jason Friday",
+    "email": "jason@teste.com",
+    "password": null
+  }
+}
