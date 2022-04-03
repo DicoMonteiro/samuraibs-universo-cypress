@@ -6,8 +6,9 @@ class DashPage {
         this.header = header
     }
 
-    go(){
+    go(provider){
         cy.visit("/dashboard");
+        this.header.shouldProfileHeader(provider)
     }
 
     calendarShouldBeVisible() {

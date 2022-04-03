@@ -25,7 +25,7 @@ describe('dashboard', function() {
             // Login via API
             cy.apiLogin(provider, true)
 
-            dashPage.go()
+            dashPage.go(provider.name)
             dashPage.calendarShouldBeVisible()
             dashPage.selectDate(date)
             dashPage.appointmentShouldBe(customer, appointment.hour)
