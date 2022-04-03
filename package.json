@@ -7,11 +7,17 @@
   "license": "MIT",
   "scripts": {
     "test:e2e": "npx cypress open",
-    "test:headless": "npx cypress run"
+    "test:headless": "npx cypress run",
+    "test:headless:chrome": "npx cypress run --browser chrome",
+    "test:headless:edge": "npx cypress run --browser edge",
+    "test:headless:firefox": "npx cypress run --browser firefox",
+    "test:onspec": "npx cypress run --spec ./cypress/integration/recoverypass.spec.js --browser chrome"
   },
   "devDependencies": {
     "@faker-js/faker": "^6.0.0-alpha.7",
     "cypress": "^9.5.0",
-    "pg": "^8.7.3"
+    "moment": "^2.29.1",
+    "pg": "^8.7.3",
+    "underscore": "^1.13.2"
   }
 }

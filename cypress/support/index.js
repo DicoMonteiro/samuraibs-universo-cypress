@@ -22,3 +22,8 @@ import './commands'
 Cypress.on('uncaught:exception', (err, runnable) => {
     return false
 })
+
+// Screenshoot para todos os testes (com sucesso ou não)
+// afterEach(() => {
+//     cy.screenshot()
+// });

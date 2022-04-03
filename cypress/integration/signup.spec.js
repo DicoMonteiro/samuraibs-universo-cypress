@@ -1,5 +1,5 @@
 import faker from "@faker-js/faker";
-import signupPage from "../support/pages/signup/index";
+import signupPage from "../support/pages/signup";
 
 describe("Cadastro", function() {
 
