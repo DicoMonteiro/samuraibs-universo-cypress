@@ -16,5 +16,6 @@
     "watchForFileChanges": false,
     "requestTimeout": 60000,
     "screenshotOnRunFailure": true,
-    "defaultCommandTimeout": 30000
+    "defaultCommandTimeout": 30000,
+    "projectId": "kxhzoh"
 }
