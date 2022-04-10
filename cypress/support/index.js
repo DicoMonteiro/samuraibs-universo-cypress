@@ -24,6 +24,6 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 // Screenshoot para todos os testes (com sucesso ou não)
-// afterEach(() => {
-//     cy.screenshot()
-// });
+afterEach(() => {
+    cy.screenshot()
+});

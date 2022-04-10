@@ -2,7 +2,7 @@ import { element } from './elements'
 
 class Header {
     shouldProfileHeader(userName){
-        cy.get(element.profileHeader, { timeout: 7000 })
+        cy.get(element.profileHeader)
             .should("be.visible")
             .should("have.text", userName)
     }

@@ -1,6 +1,7 @@
 {
-    "baseUrl": "http://localhost:3000",
-    "apiServer": "http://localhost:3333",
+    "$schema": "https://raw.githubusercontent.com/cypress-io/cypress/develop/cli/schema/cypress.schema.json",
+    "baseUrl": "https://samuraibs-web-adriano.herokuapp.com",
+    "apiServer": "https://samuraibs-api-adriano.herokuapp.com",
     "viewportWidth": 1440,
     "viewportHeight": 900,
     "dbConfig": {
@@ -9,5 +10,11 @@
         "password": "0ImouYXzZGv4fxLXrnRmaCdk0J_Q7ogR",
         "database": "sepfqlso",
         "port": 5432
-    }
+    },
+    "video": false,
+    "experimentalSourceRewriting": true,
+    "watchForFileChanges": false,
+    "requestTimeout": 60000,
+    "screenshotOnRunFailure": true,
+    "defaultCommandTimeout": 30000
 }

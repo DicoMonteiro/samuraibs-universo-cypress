@@ -96,6 +96,8 @@ Cypress.Commands.add('createAppointment', function(hour) {
 	    date: `${date}`
     }
 
+    cy.log(payload)
+
     cy.request({
         method: "POST", 
         // url: "http://localhost:3333/appointments",

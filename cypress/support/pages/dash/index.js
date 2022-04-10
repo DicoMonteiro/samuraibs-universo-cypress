@@ -12,7 +12,7 @@ class DashPage {
     }
 
     calendarShouldBeVisible() {
-        cy.get(element.calendar, { timeout: 7000 } )
+        cy.get(element.calendar)
             .should("be.visible")
     }
 

@@ -11,7 +11,7 @@ class LoginPage {
 
     go(){
         cy.visit("/");
-        cy.contains(element.title).should("be.visible" , {timeout: 3000});
+        cy.contains(element.title).should("be.visible");
     }
     form(user) {
         cy.get(element.email)

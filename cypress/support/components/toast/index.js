@@ -2,9 +2,9 @@ import { element } from './elements'
 
 class Toast {
     shouldHaveText(expectedText){
-        cy.get(element.toast, { timeout: 10000 })
+        cy.get(element.toast)
         .should("be.visible")
-        .should("have.css", "opacity", "1", { timeout: 15000 })
+        .should("have.css", "opacity", "1")
         .find("p")
         .should("have.text", expectedText);
     }
